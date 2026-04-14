@@ -1,0 +1,83 @@
+═══════════════════════════════════════════════════════════════
+  VERCEL DEPLOYMENT - QUICK CHECKLIST 🚀
+═══════════════════════════════════════════════════════════════
+
+BEFORE YOU DEPLOY:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+☐ Update "YOUR NAME HERE" in index.html
+☐ Verify all social media links are correct
+☐ Check all project links work
+☐ Test portfolio in browser (open index.html)
+☐ All images are in the images folder
+☐ Save all files
+
+DEPLOYMENT STEPS (EASIEST METHOD):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. CREATE GITHUB REPOSITORY
+   → Go to github.com
+   → Click "+" → "New repository"
+   → Name: onepiece-portfolio
+   → Click "Create repository"
+
+2. UPLOAD FILES TO GITHUB
+   → Click "uploading an existing file"
+   → Drag ALL your portfolio files
+   → Commit changes
+
+3. DEPLOY TO VERCEL
+   → Go to vercel.com
+   → Sign up/Login with GitHub
+   → Click "Add New..." → "Project"
+   → Import your repository
+   → Click "Deploy"
+   → Wait 30-60 seconds
+   → DONE! 🎉
+
+YOUR LIVE URL:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+https://your-project-name.vercel.app
+
+UPDATING YOUR PORTFOLIO:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. Make changes to your files
+2. Upload to GitHub (same way as before)
+3. Vercel automatically updates! ✨
+
+FILES TO DEPLOY:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✓ index.html
+✓ styles.css
+✓ script.js
+✓ vercel.json
+✓ images/ folder (with all images)
+
+OPTIONAL FILES (don't need to upload):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✗ IMAGE-GUIDE.md
+✗ QUICK-START.md
+✗ README.md
+✗ image-checklist.html
+✗ SETUP-SUMMARY.txt
+✗ DEPLOYMENT-GUIDE.md
+✗ DEPLOY-CHECKLIST.txt
+
+TROUBLESHOOTING:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+❌ Images not showing?
+   → Make sure images folder is uploaded
+   → Check image file names match exactly
+
+❌ Deployment failed?
+   → Check all files are uploaded to GitHub
+   → Look at Vercel deployment logs
+
+❌ Styles not working?
+   → Clear browser cache (Ctrl+F5)
+   → Check styles.css is uploaded
+
+THAT'S IT! 🏴‍☠️
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Your One Piece portfolio will be live in under 5 minutes!
+
+For detailed instructions, see DEPLOYMENT-GUIDE.md

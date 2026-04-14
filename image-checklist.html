@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Checklist - One Piece Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            padding: 2rem;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 2rem;
+            border: 5px solid #000;
+            box-shadow: 10px 10px 0 rgba(0,0,0,0.2);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 1rem;
+            border-bottom: 3px solid #000;
+            padding-bottom: 1rem;
+        }
+        
+        .intro {
+            background: #fffacd;
+            padding: 1rem;
+            border: 3px solid #000;
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+        }
+        
+        .checklist {
+            display: grid;
+            gap: 1.5rem;
+        }
+        
+        .item {
+            border: 3px solid #000;
+            padding: 1.5rem;
+            background: #fff;
+            transition: all 0.3s;
+        }
+        
+        .item:hover {
+            transform: translateX(10px);
+            box-shadow: 5px 5px 0 rgba(0,0,0,0.2);
+        }
+        
+        .item h2 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+            color: #000;
+        }
+        
+        .item .filename {
+            background: #000;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            display: inline-block;
+            margin: 0.5rem 0;
+            font-family: monospace;
+            font-size: 1.1rem;
+        }
+        
+        .item .description {
+            margin: 0.5rem 0;
+            color: #666;
+        }
+        
+        .item .search-link {
+            display: inline-block;
+            background: #000;
+            color: #fff;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            margin-top: 0.5rem;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        
+        .item .search-link:hover {
+            background: #333;
+            transform: translateY(-2px);
+        }
+        
+        .status {
+            margin-top: 2rem;
+            padding: 1.5rem;
+            background: #e8f5e9;
+            border: 3px solid #000;
+        }
+        
+        .status h2 {
+            margin-bottom: 1rem;
+        }
+        
+        .status-item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin: 0.5rem 0;
+            font-size: 1.1rem;
+        }
+        
+        .checkbox {
+            width: 30px;
+            height: 30px;
+            border: 3px solid #000;
+            cursor: pointer;
+        }
+        
+        .footer {
+            margin-top: 2rem;
+            text-align: center;
+            padding: 1rem;
+            border-top: 3px solid #000;
+        }
+        
+        .emoji {
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏴‍☠️ One Piece Portfolio - Image Checklist</h1>
+        
+        <div class="intro">
+            <strong>📋 What you need:</strong> Download 5 PNG images with transparent backgrounds and place them in an <code>images</code> folder.
+        </div>
+        
+        <div class="checklist">
+            <div class="item">
+                <h2>1. <span class="emoji">☠️</span> Straw Hat Jolly Roger</h2>
+                <div class="filename">jolly-roger.png</div>
+                <div class="description">
+                    The iconic Straw Hat Pirates skull logo with the straw hat. This will appear in the navigation, section titles, and as decorative elements.
+                </div>
+                <a href="https://www.google.com/search?q=straw+hat+pirates+jolly+roger+png+transparent&tbm=isch" target="_blank" class="search-link">
+                    🔍 Search on Google
+                </a>
+            </div>
+            
+            <div class="item">
+                <h2>2. <span class="emoji">👊</span> Monkey D. Luffy</h2>
+                <div class="filename">luffy.png</div>
+                <div class="description">
+                    Luffy's face/portrait - the captain! Look for a smiling or determined expression. This represents your Frontend skills.
+                </div>
+                <a href="https://www.google.com/search?q=monkey+d+luffy+face+png+transparent&tbm=isch" target="_blank" class="search-link">
+                    🔍 Search on Google
+                </a>
+            </div>
+            
+            <div class="item">
+                <h2>3. <span class="emoji">⚔️</span> Roronoa Zoro</h2>
+                <div class="filename">zoro.png</div>
+                <div class="description">
+                    Zoro's face/portrait - the swordsman! Look for a serious or cool expression with green hair. This represents your Design skills.
+                </div>
+                <a href="https://www.google.com/search?q=roronoa+zoro+face+png+transparent&tbm=isch" target="_blank" class="search-link">
+                    🔍 Search on Google
+                </a>
+            </div>
+            
+            <div class="item">
+                <h2>4. <span class="emoji">🔥</span> Sanji</h2>
+                <div class="filename">sanji.png</div>
+                <div class="description">
+                    Sanji's face/portrait - the cook! Look for a confident expression with blonde hair. This represents your Performance skills.
+                </div>
+                <a href="https://www.google.com/search?q=sanji+one+piece+face+png+transparent&tbm=isch" target="_blank" class="search-link">
+                    🔍 Search on Google
+                </a>
+            </div>
+            
+            <div class="item">
+                <h2>5. <span class="emoji">⚡</span> Nami</h2>
+                <div class="filename">nami.png</div>
+                <div class="description">
+                    Nami's face/portrait - the navigator! Look for a happy or confident expression with orange hair. This represents your Innovation skills.
+                </div>
+                <a href="https://www.google.com/search?q=nami+one+piece+face+png+transparent&tbm=isch" target="_blank" class="search-link">
+                    🔍 Search on Google
+                </a>
+            </div>
+        </div>
+        
+        <div class="status">
+            <h2>✅ Checklist - Mark as you download:</h2>
+            <div class="status-item">
+                <input type="checkbox" class="checkbox"> Created <code>images</code> folder
+            </div>
+            <div class="status-item">
+                <input type="checkbox" class="checkbox"> Downloaded jolly-roger.png
+            </div>
+            <div class="status-item">
+                <input type="checkbox" class="checkbox"> Downloaded luffy.png
+            </div>
+            <div class="status-item">
+                <input type="checkbox" class="checkbox"> Downloaded zoro.png
+            </div>
+            <div class="status-item">
+                <input type="checkbox" class="checkbox"> Downloaded sanji.png
+            </div>
+            <div class="status-item">
+                <input type="checkbox" class="checkbox"> Downloaded nami.png
+            </div>
+            <div class="status-item">
+                <input type="checkbox" class="checkbox"> All images placed in <code>images</code> folder
+            </div>
+            <div class="status-item">
+                <input type="checkbox" class="checkbox"> Refreshed browser and checked portfolio
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p><strong>🎯 Pro Tips:</strong></p>
+            <p>• Choose PNG files with transparent backgrounds</p>
+            <p>• Look for high-quality images (500x500px or larger)</p>
+            <p>• Manga-style black and white images work best</p>
+            <p>• Make sure file names match exactly!</p>
+            <br>
+            <p><strong>🚀 After downloading, open index.html to see your portfolio!</strong></p>
+        </div>
+    </div>
+</body>
+</html>

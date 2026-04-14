@@ -1,0 +1,89 @@
+═══════════════════════════════════════════════════════════════
+  GIT SETUP & DEPLOYMENT COMMANDS 🚀
+═══════════════════════════════════════════════════════════════
+
+STEP 1: CONFIGURE GIT (Run these commands first)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+git config --global user.email "laurencelapating@gmail.com"
+git config --global user.name "Marc Laurence Lapating"
+
+STEP 2: INITIALIZE GIT IN YOUR PORTFOLIO FOLDER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+git init
+
+STEP 3: ADD ALL FILES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+git add .
+
+STEP 4: COMMIT YOUR FILES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+git commit -m "Initial commit - One Piece Portfolio"
+
+STEP 5: ADD YOUR GITHUB REPOSITORY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+git remote add origin https://github.com/LrenceLapating/My-portfolio.git
+
+STEP 6: RENAME BRANCH TO MAIN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+git branch -M main
+
+STEP 7: PUSH TO GITHUB
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+git push -u origin main
+
+(If it asks for authentication, use your GitHub username and password)
+
+═══════════════════════════════════════════════════════════════
+
+COMPLETE COMMAND SEQUENCE (Copy & Paste):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+git config --global user.email "laurencelapating@gmail.com"
+git config --global user.name "Marc Laurence Lapating"
+git init
+git add .
+git commit -m "Initial commit - One Piece Portfolio"
+git remote add origin https://github.com/LrenceLapating/My-portfolio.git
+git branch -M main
+git push -u origin main
+
+═══════════════════════════════════════════════════════════════
+
+AFTER PUSHING TO GITHUB:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Go to https://vercel.com
+2. Sign in with GitHub
+3. Click "Add New..." → "Project"
+4. Find "My-portfolio" repository
+5. Click "Import"
+6. Click "Deploy"
+7. Wait 30-60 seconds
+8. Your portfolio is LIVE! 🎉
+
+Your URL will be: https://my-portfolio-[random].vercel.app
+
+═══════════════════════════════════════════════════════════════
+
+TROUBLESHOOTING:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+If "git push" asks for password:
+→ Use GitHub Personal Access Token instead of password
+→ Go to: GitHub → Settings → Developer settings → Personal access tokens
+→ Generate new token (classic)
+→ Select "repo" scope
+→ Copy token and use as password
+
+If "remote origin already exists":
+→ Run: git remote remove origin
+→ Then run: git remote add origin https://github.com/LrenceLapating/My-portfolio.git
+
+═══════════════════════════════════════════════════════════════
